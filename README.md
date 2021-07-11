@@ -12,6 +12,8 @@ Now the online version of “customers who bought this item also bought” can b
 
 
 
+
+
 Steps for Apriori Algorithm
 
 Below are the steps for the apriori algorithm:
@@ -24,3 +26,16 @@ Step-3: Find all the rules of these subsets that have higher confidence value th
 
 Step-4: Sort the rules as the decreasing order of lift.
 
+
+
+
+Output for above code
+![image](https://user-images.githubusercontent.com/85051683/125205763-7d9d3980-e2a1-11eb-8515-df941e165a63.png)
+
+for better understanding of code
+
+
+![image](https://user-images.githubusercontent.com/85051683/125205801-a6bdca00-e2a1-11eb-81dd-f419e9a38545.png)
+
+
+From the above output, we can analyze each rule. The first rules, which is Light cream → chicken, states that the light cream and chicken are bought frequently by most of the customers. The support for this rule is 0.0045, and the confidence is 29%. Hence, if a customer buys light cream, it is 29% chances that he also buys chicken, and it is .0045 times appeared in the transactions. 
